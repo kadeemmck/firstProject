@@ -1,0 +1,29 @@
+
+ .tictactoe{
+   border: 3px solid midnightblue;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(3,1fr);
+   height: 500px;
+   width: 500px;
+
+   
+
+}
+.Square{
+    border: solid midnightblue;
+    background-color: orange;
+}
+
+.Square:hover{
+    background-color: ghostwhite;
+}
+
+#Restart{
+    color:forestgreen;
+    background-color: black;
+}
+
+.jumbotron{
+    background-color: silver;
+}

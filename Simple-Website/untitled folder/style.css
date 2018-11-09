@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+li {
+    color: blue;
+}
+#double { color: midnightblue; 
+          
+}
+p {
+     font-style: oblique;
+     color:rgb(12, 12, 12); 
+     font-size: xx-large
+     
+
+
+}
+ body {
+border-style:double;
+background-color:skyblue;
+ }
+ 
+img{
+height: 50px;
+}
+audio{
+    display: none
+}

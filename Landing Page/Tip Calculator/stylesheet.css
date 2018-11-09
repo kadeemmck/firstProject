@@ -1,0 +1,54 @@
+#calculator{
+    background-color: silver;
+    height: 280px;
+}
+
+ #container{
+    color: azure;
+    background-color:cornflowerblue;
+    height: 380px;
+    width: 450px;
+    border-block-end: 650px; 
+}
+
+
+body{
+    color: aqua;
+    font-family:fantasy;
+    background: content-box;
+    background-image: url(moneyman.jpg);
+    background-size: cover;
+    
+    
+
+}
+
+form{
+    border:double;
+    
+}
+
+#serviceQual{
+    color: midnightblue;
+    width: 50%;
+    
+}
+
+.button{
+ text-align: center;
+display: inline block;
+cursor:pointer;
+background-color: fuchsia;
+
+
+}
+
+#calculate{
+    background-color:cornflowerblue;
+    font-size: 100%;
+    border: double;
+    /* border-radius: 40%; */
+
+ }
+
+
