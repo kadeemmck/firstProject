@@ -37,7 +37,7 @@ function youWin(){
         console.log("winner") 
 
 
-    } else if ($("#2").html() !== "" && $("#2").html()=== $("#3").html() && $("#").html()===  $("#3").html()){
+    } else if ($("#2").html() !== "" && $("#2").html()=== $("#3").html() && $("#2").html()===  $("#3").html()){
         console.log("winner") 
     
     

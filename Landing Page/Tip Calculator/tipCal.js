@@ -18,6 +18,7 @@ function calculateTip() {
  $('#tip').val(tipAmount);
 }
 
+$('#calculate').onClick()
 
 // // make tip validated 
 // if(billAmt === " " || serviceQual == 0){
