@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import{Card, Button, CardBody, CardTitle, CardImg, CardText} from 'reactstrap';
-import atl from '/Images/atl.png';
+import {Card, Button, CardBody, CardTitle, CardImg, CardText} from 'reactstrap';
+import atl from '/Images/atl.jpg';
 
 
 class Cards extends Component{
@@ -10,7 +10,7 @@ class Cards extends Component{
 <h1></h1>
   
 <Card style={{ width: '18rem' }}>
-  <CardImg variant="top" src='atl.png' alt=''/>  
+  <CardImg  src={require('./Images/atl.jpg')} alt=''/>  
   <CardBody>
     <CardTitle>Card Title</CardTitle>
     <CardText>
