@@ -1,101 +1,102 @@
-// // let profit = 500
-// // let revenue = 20
+// let profit = 500
+// let revenue = 20
 
 
-// // while(profit <=(revenue * .20)){
-// //     revenue += 500
-// //     profit += profit * .15
-// // }
+// while(profit <=(revenue * .20)){
+//     revenue += 500
+//     profit += profit * .15
+// }
 
-// // console.log("profit is"+ profit)
-// // console.log("revenue is "+ revenue)
-
-
-// // let goal = 0
-// // let miss = 0
-// // let ball = 0
+// console.log("profit is"+ profit)
+// console.log("revenue is "+ revenue)
 
 
-// // while(ball < 15){
+// let goal = 0
+// let miss = 0
+// let ball = 0
+
+
+// while(ball < 15){
  
-// //     if(ball % 2 == 0){
-// //       console.log ("Goal")
-// //       goal++
-// //     }else{
-// //         console.log("Miss")
-// //         miss++
-// //     }
-// // ball++
+//     if(ball % 2 == 0){
+//       console.log ("Goal")
+//       goal++
+//     }else{
+//         console.log("Miss")
+//         miss++
+//     }
+// ball++
 
-// // if(ball == 15){
-// //     if(goal > miss){
+// if(ball == 15){
+//     if(goal > miss){
 
-// //     }
-// // }
-
-
-// // }
+//     }
+// }
 
 
+// }
 
 
 
-// // let population = 0
-// // let fish1 = 0
-// // let fish2 = 0 
-// // let fish3 = 0 
-// // let fish4 = 0 
-// // let fish5 = 0 
 
-// // while(population < 100){
+
+// let population = 0
+// let fish1 = 0
+// let fish2 = 0 
+// let fish3 = 0 
+// let fish4 = 0 
+// let fish5 = 0 
+
+// while(population < 100){
    
-// // }
+// }
 
-// // *
-// // **
-// // ***
-// // ****
-// // *****
+// *
+// **
+// ***
+// ****
+// *****
 
-// // for(let i = 0; i < arr.length; i++){
-// //     for(let j = 0; j < arr.length; j++)[
-// //         console.log("*")
-// //     ]
-// // }
+// for(let i = 0; i < arr.length; i++){
+//     for(let j = 0; j < arr.length; j++)[
+//         console.log("*")
+//     ]
+// }
 
 
 
-// // function tellfortune(jobtitle, GeoLocation, PartnersName, Numberofchildren ) {
-// //     let future = "I Will be A" + jobtitle + GeoLocation + PartnersName + Numberofchildren
+// function tellfortune(jobtitle, GeoLocation, PartnersName, Numberofchildren ) {
+//     let future = "I Will be A" + jobtitle + GeoLocation + PartnersName + Numberofchildren
   
-// //     console.log(future) ;
-// // }
+//     console.log(future) ;
+// }
 
-// // tellfortune("BOSS", 'athlete', 'Techy');
-// // tellfortune('chicken', 'dog' ,'RABBIT', 'ATl'  );
-// // tellfortune('robot slayer', 'ZOMBIE KILLER', '3');
-
-
-// // i am a bamf programmer 
+// tellfortune("BOSS", 'athlete', 'Techy');
+// tellfortune('chicken', 'dog' ,'RABBIT', 'ATl'  );
+// tellfortune('robot slayer', 'ZOMBIE KILLER', '3');
 
 
-// // function Alphabetize("I am a BAMF programmer")
+// i am a bamf programmer 
 
 
-// // function alphabetize (word) {
-// //     let duck = word.split("").sort().join("").trim();
-// //      console.log(duck)
+// function Alphabetize("I am a BAMF programmer")
 
-// //   }
+
+// function alphabetize (word) {
+//     let duck = word.split("").sort().join("").trim();
+//      console.log(duck)
+
+//   }
   
-// //   alphabetize("I am a BAMF Programmer")
+//   alphabetize("I am a BAMF Programmer")
 
-// // var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
-// // var counter = 0;
-// // for(var i = 0; i <=4; i++){
-// //     console.log(languages[counter]);
-// //     counter = counter + 1;
-// // }
+// var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
+// var counter = 0;
+
+// for(var i = 0; i <=4; i++){
+//     console.log(languages[counter]);
+//     counter = counter + 1;
+// }
 
 
 // ## 1
@@ -292,83 +293,88 @@
 
 
 
-// // checks to see if a statement is true
- if(trueOrfalse) {
-    return "true";
+// // // checks to see if a statement is true
+//  if(trueOrfalse) {
+//     return "true";
+// }
+
+
+// // // checks to see if a value is false
+
+// if(!trueOrfalse){
+//     return "false"
+// }
+
+// // // Default value if the first condition isnt met
+
+//   { else } 
+//          return "true"
+// } 
+
+
+//   let favoriteColor = "red"; 
+//   if(favoriteColor === "blue"){
+//        return "blue";
+//   } else if(favoriteColor === "green"){
+//          return "green";
+//   } else if (favoriteColor === "red"){
+//       return "red"
+//   }
+
+
+// // loops
+// let counter = 0 ;
+// while(trueOrfalse){
+//     console.log("true");
+//     counter++;
+//     if (counter === 10) {
+//         trueOrfalse = false;
+//     }
+
+// }
+//  for(i =0; i<=100; i++){
+//      console.log(i)
+//  }
+
+
+// for(i = 1000; i>=0; i--){
+//     console.log(i);
+// }
+
+
+
+
+// // D.R.Y- Don't repeat yourself *function
+
+
+// function redOrBlue(value){
+//     if(value===true){
+//         return "blue"
+//     }else {
+//          return "red"
+//     }
+// }
+// if(red=== "red"){
+//     console.log("true")
+// }
+
+// // Array Methods
+
+// numbers.sort() ;
+// numbers.split(" ");
+// numbers.splice(4,0,8 );
+// numbers.slice();
+// numbers.push();
+// numbers.pop();
+// numbers.unshift();
+// numbers.shift();
+// numbers.join();
+// numbers.reduce();
+// numbers.map();
+// numbers.filter();
+
+
+for(i=0,j=20;i<=100;i++,j++){
+    console.log(i)
+    console.log(j)
 }
-
-
-// // checks to see if a value is false
-
-if(!trueOrfalse){
-    return "false"
-}
-
-// // Default value if the first condition isnt met
-
-  { else } 
-         return "true"
-} 
-
-
-  let favoriteColor = "red"; 
-  if(favoriteColor === "blue"){
-       return "blue";
-  } else if(favoriteColor === "green"){
-         return "green";
-  } else if (favoriteColor === "red"){
-      return "red"
-  }
-
-
-// loops
-let counter = 0 ;
-while(trueOrfalse){
-    console.log("true");
-    counter++;
-    if (counter === 10) {
-        trueOrfalse = false;
-    }
-
-}
- for(i =0; i<=100; i++){
-     console.log(i)
- }
-
-
-for(i = 1000; i>=0; i--){
-    console.log(i);
-}
-
-
-
-
-// D.R.Y- Don't repeat yourself *function
-
-
-function redOrBlue(value){
-    if(value===true){
-        return "blue"
-    }else {
-         return "red"
-    }
-}
-if(red=== "red"){
-    console.log("true")
-}
-
-// Array Methods
-
-numbers.sort() ;
-numbers.split(" ");
-numbers.splice(4,0,8 );
-numbers.slice();
-numbers.push();
-numbers.pop();
-numbers.unshift();
-numbers.shift();
-numbers.join();
-numbers.reduce();
-numbers.map();
-numbers.filter();
-
