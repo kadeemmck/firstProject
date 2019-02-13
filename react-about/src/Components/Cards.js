@@ -1,28 +1,90 @@
 import React, { Component } from 'react';
-import {Card, Button, CardBody, CardTitle, CardImg, CardText} from 'reactstrap';
-import atl from '/Images/atl.jpg';
+import {Card, CardBody, CardTitle, CardImg, CardText} from 'reactstrap';
+
 
 
 class Cards extends Component{
     render(){
     return (
 <div className = "Cards">
-<h1></h1>
-  
+
+  <div id="crush">
+
 <Card style={{ width: '18rem' }}>
-  <CardImg  src={require('./Images/atl.jpg')} alt=''/>  
   <CardBody>
-    <CardTitle>Card Title</CardTitle>
+  <CardImg  src='../Images/atl.png' alt=''/>  
+    <CardTitle></CardTitle>
     <CardText>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    
     </CardText>
-    <Button variant="primary">Go somewhere</Button>
+    
   </CardBody>
-</Card>;
+</Card>
+</div>
+
+  <div id="batch">
+
+<Card style={{ width: '18rem' }}>
+  <CardBody>
+  <CardImg  src='../Images/apple.png' alt=''/>  
+    <CardTitle></CardTitle>
+    <CardText>
+     
+    </CardText>
+    
+  </CardBody>
+</Card>
+
+  </div>
+
+
+<div id="nice">
+<Card style={{ width: '18rem' }}>
+  <CardBody>
+  <CardImg  src='../Images/chakra.jpg' alt=''/>  
+    <CardTitle></CardTitle>
+    <CardText>
+     
+    </CardText>
+    
+  </CardBody>
+</Card>
+
+</div>
+
+
+
+ <div id="wrong">
+ <Card style={{ width: '18rem' }}>
+  <CardBody>
+   <CardImg  src='../Images/miamiheat.jpg' alt=''/>  
+    <CardTitle></CardTitle>
+    <CardText>
+     
+    </CardText>
+    
+  </CardBody>
+ </Card>
+
+ </div> 
+
+
+
+
+
+
 
 
 </div>
+
+
+
+
+
+
+
+
+
   
 
  )

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Form } from 'react-bootstrap';
 
 class Navigation extends Component{
     render(){
@@ -18,7 +18,7 @@ class Navigation extends Component{
         <NavDropdown.Item href="#action/3.2">Food</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Drink Beer</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Music</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Meet New People</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Laugh</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Life Skills</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Sports</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Smile</NavDropdown.Item>
@@ -32,8 +32,16 @@ class Navigation extends Component{
   </Navbar.Collapse>
 </Navbar>
 
+<div id ="chile">
 
+< a href ='https://www.linkedin.com/feed/' >
+<i class="fab fa-linkedin" style={{background:'white',color:'blue', fontSize:'2em'}}></i>
+</a>
 
+< a href ='https://twitter.com/' >
+<i class="fab fa-twitter" style= {{background:'white',color:'blue',fontSize:'2em'}}></i>
+</a>
+</div>
 
 </div>
   

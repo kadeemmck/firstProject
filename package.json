@@ -1,0 +1,27 @@
+{
+  "name": "ProjectFolder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadeemmck/firstProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kadeemmck/firstProject/issues"
+  },
+  "homepage": "https://github.com/kadeemmck/firstProject#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.11",
+    "nodemon": "^1.18.10"
+  }
+}
